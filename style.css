@@ -1,0 +1,20 @@
+
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  padding: 20px;
+}
+a {
+  color: #0f0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.typewriter h1, .typewriter h2, .typewriter h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #0f0;
+  animation: typing 3s steps(40, end), blink 0.5s step-end infinite alternate;
+}
+@keyframes typing { from { width: 0; } to { width: 100%; } }
+@keyframes blink { 50% { border-color: transparent; } }
